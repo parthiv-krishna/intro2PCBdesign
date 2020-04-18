@@ -95,7 +95,7 @@ F 3 "" H 2700 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 2800 5350 2800
+	3300 2800 4150 2800
 Wire Wire Line
 	5350 2800 5350 3250
 Wire Wire Line
@@ -141,4 +141,38 @@ NoConn ~ 3300 3900
 NoConn ~ 3300 4000
 Text Label 3650 2800 0    50   ~ 0
 +5V
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5E9C2867
+P 4750 1800
+F 0 "J3" H 4830 1792 50  0000 L CNN
+F 1 "Conn_01x02" H 4830 1701 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4750 1800 50  0001 C CNN
+F 3 "~" H 4750 1800 50  0001 C CNN
+	1    4750 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 5E9C32F1
+P 4750 2150
+F 0 "J4" H 4830 2142 50  0000 L CNN
+F 1 "Conn_01x02" H 4830 2051 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4750 2150 50  0001 C CNN
+F 3 "~" H 4750 2150 50  0001 C CNN
+	1    4750 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2150 4150 2150
+Wire Wire Line
+	4150 2150 4150 2800
+Connection ~ 4150 2800
+Wire Wire Line
+	4150 2800 5350 2800
+Wire Wire Line
+	4550 1800 4150 1800
+Wire Wire Line
+	4150 1800 4150 2150
+Connection ~ 4150 2150
 $EndSCHEMATC
