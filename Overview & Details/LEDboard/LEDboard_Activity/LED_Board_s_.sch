@@ -2035,4 +2035,26 @@ Wire Wire Line
 NoConn ~ 12800 7600
 Wire Wire Line
 	2200 6100 2700 6100
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5EBD12B6
+P 10200 9100
+F 0 "FID1" H 10285 9146 50  0000 L CNN
+F 1 "Fiducial" H 10285 9055 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 10200 9100 50  0001 C CNN
+F 3 "~" H 10200 9100 50  0001 C CNN
+	1    10200 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 5EBD2ECE
+P 10750 9100
+F 0 "FID2" H 10835 9146 50  0000 L CNN
+F 1 "Fiducial" H 10835 9055 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 10750 9100 50  0001 C CNN
+F 3 "~" H 10750 9100 50  0001 C CNN
+	1    10750 9100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
