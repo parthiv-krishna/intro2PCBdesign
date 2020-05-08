@@ -1,4 +1,4 @@
-update=4/26/2020 6:54:10 PM
+update=Sunday, April 26, 2020 at 02:17:53 PM
 version=1
 last_client=pcbnew
 [general]
