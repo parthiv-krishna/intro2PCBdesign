@@ -171,29 +171,13 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
-# Power_Board_+5VR
+# Power_Board-rescue_Jack-DC-Power_Board
 #
-DEF Power_Board_+5VR #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Power_Board_+5VR" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5VR 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Power_Board_Jack-DC
-#
-DEF Power_Board_Jack-DC J 0 40 Y Y 1 F N
+DEF Power_Board-rescue_Jack-DC-Power_Board J 0 40 Y Y 1 F N
 F0 "J" 0 210 50 H V C CNN
-F1 "Power_Board_Jack-DC" 0 -200 50 H V C CNN
+F1 "Power_Board-rescue_Jack-DC-Power_Board" 0 -200 50 H V C CNN
 F2 "" 50 -40 50 H I C CNN
 F3 "" 50 -40 50 H I C CNN
-ALIAS Jack-DC
 $FPLIST
  BarrelJack*
 $ENDFPLIST
@@ -209,11 +193,11 @@ X ~ 2 300 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Power_Board_MAX735CSA-Regulator_Switching
+# Power_Board-rescue_MAX735CSA-Regulator_Switching-Power_Board
 #
-DEF Power_Board_MAX735CSA-Regulator_Switching U 0 40 Y Y 1 F N
+DEF Power_Board-rescue_MAX735CSA-Regulator_Switching-Power_Board U 0 40 Y Y 1 F N
 F0 "U" 50 100 50 H V C CNN
-F1 "Power_Board_MAX735CSA-Regulator_Switching" 50 -50 50 H V C CNN
+F1 "Power_Board-rescue_MAX735CSA-Regulator_Switching-Power_Board" 50 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -229,11 +213,11 @@ X V+ 8 300 -250 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Power_Board_Screw_Terminal_01x04
+# Power_Board-rescue_Screw_Terminal_01x04-Power_Board
 #
-DEF Power_Board_Screw_Terminal_01x04 J 0 40 Y N 1 F N
+DEF Power_Board-rescue_Screw_Terminal_01x04-Power_Board J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Power_Board_Screw_Terminal_01x04" 0 -300 50 H V C CNN
+F1 "Power_Board-rescue_Screw_Terminal_01x04-Power_Board" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -257,6 +241,21 @@ X Pin_4 1 -200 -200 150 R 50 50 1 1 P
 X ePin_3 2 -200 -100 150 R 50 50 1 1 P
 X Pin_2 3 -200 0 150 R 50 50 1 1 P
 X Pin_1 4 -200 100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Power_Board_+5VR
+#
+DEF Power_Board_+5VR #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Power_Board_+5VR" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5VR 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
