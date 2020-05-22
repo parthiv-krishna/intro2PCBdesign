@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Power_Board-cache
 EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
@@ -1014,17 +1015,10 @@ Wire Wire Line
 Wire Wire Line
 	11900 9700 11900 9950
 $Comp
-L Power_Board:+5VR #PWR015
 U 1 1 5EACA33B
 P 13400 1900
 F 0 "#PWR015" H 13400 1750 50  0001 C CNN
 F 1 "+5VR" H 13415 2073 50  0000 C CNN
-F 2 "" H 13400 1900 50  0001 C CNN
-F 3 "" H 13400 1900 50  0001 C CNN
-	1    13400 1900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Power_Board:+5VR #PWR010
 U 1 1 5EAF8C5D
 P 11400 9700
