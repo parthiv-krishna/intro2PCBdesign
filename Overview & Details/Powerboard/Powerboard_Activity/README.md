@@ -6,6 +6,12 @@ You can find an explanation for the overall power board design [here](../../Powe
 
 You can find a summary of PCB layout guidelines [here](/Resources/PCBLayout_Advice.md). 
 
+As a reference, here is an CAD overview of the Uber radio with the powerboard (the front transparent board): 
+
+<img width="250" src="../../Powerboard/Images/PowerboardCAD.png">
+
+**[Here](../../Powerboard/Powerboard_Activity/FeedbackSummaryFromReviews.md) is a summary of the feedback we gave during the one-on-one power board reviews.**
+
 ### Step 0: Make a few modifications to your schematic 
 
 #### Switch the pin numbers on the barrel jack symbol 
@@ -173,4 +179,6 @@ Because the back of this board will be the back side of your Uber radio, you can
 * Select the text symbol on the bottom of the right toolbar. Write your text and select where you want to add it to the board. Since it's on the back silkscreen, the text will appear backwards. 
 
 ### Step 12: Submit your files 
-Please hold off on submitting your gerbers until we upload more instructions on how to check all of your files. In the meantime, please zip your entire project and upload it to [this folder](https://drive.google.com/drive/u/2/folders/1e8zsRJFqjapmwYdHj4HdveI1naBzdkUp) by **this Thursday**. Don't worry if it's not done yet! We'll be reviewing your work so far and giving you feedback before the final submission.
+Please follow [these instructions](https://docs.google.com/document/d/1qvqrGsUVL5eTboYyzIsukpad2v4i9gxZdKDxvW_qbE8/edit) to submit your gerbers. 
+
+
